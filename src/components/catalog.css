@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Arimo&display=swap');
+
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+.barraSuperior {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #EDDDE7;
+    padding: 10px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 140px;
+}
+.profile{
+    width: 140px;
+}
+
+
+.imgSize {
+    width: 23vw;
+    border-radius: 10px;
+}
+
+.infoBox {
+    padding-bottom: 26px;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: #EDDDE7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2,h4 {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .botonUsuario {
+        margin-top: 15px;
+        text-align: center;
+        width: 92px;
+        height: 40px;
+        background-color: #e65cb33b;
+        border-radius: 10px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .galeriaGrid {
+        width: auto;
+        display: grid;
+        background-color: white;
+        padding: 10px;
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+
+    .imgSize {
+        width: 85vw;
+    }
+    p,h2,h4{
+        text-align: center;
+        width: 63vw;
+        font-family: 'Arimo', sans-serif;
+    }
+    .profile{
+        width: 19vw;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+
+    .usuarioBarra {
+        display: none;
+    }
+
+
+    .galeriaGrid {
+        width: -webkit-fill-available;
+        grid-row-gap: 10px;
+        width: auto;
+        grid-template-columns: repeat(3, 100px);
+        display: grid;
+        justify-content: space-evenly;
+        background-color: white;
+        justify-items: center;
+        padding: 10px;
+        grid-row-gap: 10px
+    }
+
+    .botonUsuario {
+        margin-top: 15px;
+        text-align: center;
+        width: 250px;
+        height: 45px;
+        background-color: #e65cb33b;
+        border-radius: 10px;
+        font-size: 16px;
+        border: none;
+    }
+    p,h2,h4{
+        text-align: center;
+        font-family: 'Arimo', sans-serif;
+        padding: 5px;
+    }
+
+}
