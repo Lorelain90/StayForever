@@ -1,8 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "./heroimage.css";
-import Catalog from './catalog';
-
 
 export default function HeroImg() {
   return (
@@ -23,7 +20,9 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
           </h1>
           <p>Trabajamos para tu tranquilidad y nos centramos en tus deseos</p>
           <a href="#pisos">
-          <a href="./Catalog" class="btn btn-info" role="button">Ver Inmuebles</a>
+            <a href="./Catalog" class="btn btn-info" role="button">
+              Ver Inmuebles
+            </a>
           </a>
         </div>
         <div id="popup1" className="overlay">
@@ -42,8 +41,6 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
         </div>
         lightbox style popup goes here
       </div>
-      );
-      {"}"}
     </>
   );
 }
