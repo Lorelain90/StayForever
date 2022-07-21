@@ -1,0 +1,26 @@
+.organizacionContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#infoCON{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 2%;
+}
+#botonCON{
+    width: 310px;
+    height: 42px;
+    background-color: #F9475B;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.organizacionContacto p{
+    margin:0;
+    margin-top: 3%;
+    padding: 0;
+}

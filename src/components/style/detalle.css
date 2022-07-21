@@ -1,22 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Arimo&display=swap');
+
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: 'Arimo';
+}
+
+.barraSuperior {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #EDDDE7;
+    padding: 10px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+}
+
+.profile {
+    width: 140px;
+}
+
+.imgDT {
+    width: 50vw;
+}
+
+.boxDT {
+    width: 47vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 40px;
+    height: auto;
+    align-items: center;
+}
+
 .cajaContacto {
     background-color: #f4f5f2;
     width: 358px;
     height: 500px;
     border-top: 1vw solid #F9475B;
 }
-.organizacionContacto{
+
+.organizacionContacto {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
-#textoCuadro{
+
+.fatherBOX {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.infoData {
+    font-weight: 400;
+}
+
+#textoCuadro {
     width: 310px;
     height: 96px;
     margin-bottom: 20px;
     resize: none;
     font-size: 16px;
 }
-#botonCON{
+
+#botonCON {
     width: 310px;
     height: 42px;
     background-color: #F9475B;
@@ -24,9 +81,45 @@
     font-weight: 700;
     font-size: 20px;
     color: white;
+    align-items: center;
 }
-#infoCON{
+
+#infoCON {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    padding-left: 2%;
+}
+.datos_form{
+    margin:2%;
+}
+.organizacionContacto p{
+    margin:1%;
+    
+}
+h1{
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    .fatherBOX {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cajaContacto {
+        background-color: #f4f5f2;
+        width: 57vw;
+        height: 500px;
+        border-top: 1vw solid #F9475B;
+    }
+
+    #textoCuadro {
+        width: 51vw;
+    }
+    #botonCON{
+        width: 51vw;
+        align-items: center;
+    }
 }
