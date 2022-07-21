@@ -3,6 +3,7 @@ import Home from "./pages/homepage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Catalog from "./components/catalog.jsx";
 import Nav from "./components/Nav";
+import DetalleExperiencia from "./pages/detalle";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/Nav" element={<Nav />} />
           <Route path="/" element={<Home />} />
           <Route path="/catalog" element={<Catalog />}></Route>
+          <Route path="/catalog" element={<DetalleExperiencia />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

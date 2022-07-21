@@ -1,6 +1,8 @@
 import React from "react";
+import './style/Nav.css'
 import perfil from '../components/assets/perfil.png';
 import palabra from '../components/assets/palabra.png';
+
 
 export default function Navbar() {
   return (

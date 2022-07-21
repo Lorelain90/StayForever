@@ -9,6 +9,7 @@ export default function Home() {
       <Nav/>
       <HeroImg/>
       <Catalog/>
+      <Detalle></Detalle>
     </div>
   );
 }

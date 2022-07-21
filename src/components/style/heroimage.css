@@ -2,9 +2,12 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-color: #e6c9d4;  
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   font-family: Georgia;
   font-weight: bold;
   font-style: italic;
@@ -17,13 +20,16 @@ p {
   font-style: italic;
   text-shadow: 1px 1px #000;
 }
-
+.hero-image {
+  background : url(../assets/heroimage.png) center / cover;
+  position: relative;
+}
 .hero-text button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 12px 35px;
-  color: white;
+  color: rgb(185, 87, 120);
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -38,8 +44,10 @@ p {
 }
 
 .hero-text button:hover {
+  display:flex;
+  justify-content: center;
   background-color: transparent;
-  color: white;
+  color: rgb(165, 43, 122);
   border: 5px solid black;
   text-shadow: 2px 2px #000;
 }
@@ -125,4 +133,8 @@ p {
   a:active {
     color: #fff;
   }
-  
+  .immuebles{
+    display: flex;
+    justify-content: center;
+
+  }

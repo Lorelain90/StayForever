@@ -1,5 +1,5 @@
 import React from "react";
-import "./catalog.css";
+import "./style/catalog.css";
 import piso1 from "./assets/piso1.jpg";
 import piso2 from "./assets/piso2.jpg";
 import piso3 from "./assets/piso3.jpg";

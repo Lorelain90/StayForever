@@ -1,0 +1,12 @@
+.hero-image{
+    width: 100%;
+    /* height: auto; 
+    position: absolute;*/ 
+  }
+  
+  .btn-heroimg{
+    background-color: red;
+    position: absolute;
+    bottom: 38%;
+    left: 46%;
+  }
