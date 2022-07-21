@@ -48,13 +48,13 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * MySql
 
 ## Autores ✒️
-Lorena
-Jesus
-Nuria
-Fátima
-Dalia
-Ghassan
-Alba
+* Lorena
+* Jesus
+* Nuria
+* Fátima
+* Dalia
+* Ghassan
+* Alba
 
 ## Expresiones de Gratitud 🎁
 
