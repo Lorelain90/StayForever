@@ -1,11 +1,20 @@
-import axios from "axios";
+import React, { Component } from "react";
+import { Container, Grid, Header, List } from "react-bootstrap";
 
-export default function FetchPisos() {
-  return (
-    axios.get(`${process.env.REACT_APP_URL}/pisos`).then((response) => {
-      console.log(response.data);
-    }),
-    []
-  );
+class MyComponent extends Component {
+  state = {
+    peopleData: []
+  };
+
+  componentDidMount() {
+      fetch('./people.json')
+        .then(response => response.json())
+        .then(data => this.setState({ peopleData: data }));
+  }
+
+  render() {
+    
+  }
 }
-console.log(FetchPisos);
+
+export default MyComponent;
