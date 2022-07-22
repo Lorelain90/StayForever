@@ -96,7 +96,7 @@ export default function Catalog() {
             </p>
           </div>
           <div className="infoBox">
-            <img className="imgSize" src={piso9} alt="piso" />
+            <img className="imgSize" src={piso2} alt="piso" />
             <h2>192.000$</h2>
             <h4>Pisos con terraza, los más buscados</h4>
             <p>
