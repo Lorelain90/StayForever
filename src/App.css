@@ -36,20 +36,24 @@ p {
 }
 .hero-image {
   background : url(./components/assets/heroimage.png) center / cover;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin-left: 150px;
 }
 .hero-text button {
   border: none;
   outline: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   padding: 12px 35px;
   color: rgb(185, 87, 120);
   background-color: #000;
   text-align: center;
   cursor: pointer;
   border: 5px solid black;
-  margin-left: -1px;
-  margin-top: 5%;
+  margin-left: 300px;
+  margin-top: 50px;
   font-size: 8pt;
   letter-spacing: 5px;
   font-weight: bold;
