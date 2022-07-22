@@ -1,0 +1,355 @@
+/*------------------------------------------------NAV-------------------------------------------------------*/
+.hero-image{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  
+/*------------------------------------------------HEROIMAGE-------------------------------------------------------*/
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #f4abb1;  
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+  text-shadow: 2px 2px #000;
+}
+
+p {
+  font-family: Georgia;
+  font-style: italic;
+  text-shadow: 1px 1px #000;
+}
+.hero-image {
+  background : url(./components/assets/heroimage.png) center / cover;
+  position: relative;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 12px 35px;
+  color: rgb(185, 87, 120);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border: 5px solid black;
+  margin-left: -1px;
+  margin-top: 5%;
+  font-size: 8pt;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: Geogia;
+  font-style: italic;
+}
+
+.hero-text button:hover {
+  display:flex;
+  justify-content: center;
+  background-color: transparent;
+  color: rgb(165, 43, 122);
+  border: 5px solid black;
+  text-shadow: 2px 2px #000;
+}
+
+/*start of popup*/
+.exclusions {
+  font-family: Georgia;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  text-shadow: none;
+  font-style: normal;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 2px;
+    width: 60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+  }
+  @media screen and (max-width: 700px) {
+    .box {
+      width: 70%;
+    }
+    .popup {
+      width: 70%;
+    }
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #fff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #fff;
+  }
+  .immuebles{
+    display: flex;
+    justify-content: center;
+
+  }
+
+/*------------------------------------------------DETALLE------------------------------------------------------*/
+
+
+.cajaContacto {
+    background-color: #f4f5f2;
+    width: 358px;
+    height: 550px;
+    margin-left: 50%;
+    border-top: 1vw solid #F9475B;
+    padding: 10px 10px 10px 80px;
+}
+.contactar{
+    display: block;
+    justify-content: center;
+    
+}
+.organizacionContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textoCuadro{
+    display: flex;
+    justify-content: center;
+    width: 310px;
+    height: 96px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 16px;
+}
+#botonCON{
+    width: 310px;
+    height: 42px;
+    background-color: #F9475B;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+#infoCON{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+/*---------------------------------------------CONTACTAR-----------------------*/
+
+.organizacionContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#infoCON{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 2%;
+}
+#botonCON{
+    width: 310px;
+    height: 42px;
+    background-color: #F9475B;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.organizacionContacto p{
+    margin:0;
+    margin-top: 3%;
+    padding: 0;
+}
+
+/*------------------------------------------------CATALOG-------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Arimo&display=swap');
+
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+.barraSuperior {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #EDDDE7;
+    padding: 10px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 140px;
+}
+.profile{
+    width: 140px;
+}
+
+
+.imgSize {
+    width: 23vw;
+    border-radius: 10px;
+}
+
+.infoBox {
+    padding-bottom: 26px;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: #EDDDE7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2,h4 {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .botonUsuario {
+        margin-top: 15px;
+        text-align: center;
+        width: 92px;
+        height: 40px;
+        background-color: #e65cb33b;
+        border-radius: 10px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .galeriaGrid {
+        width: auto;
+        display: grid;
+        background-color: rgb(149, 40, 91);
+        padding: 10px;
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+
+    .imgSize {
+        width: 85vw;
+    }
+    p,h2,h4{
+        text-align: center;
+        width: 63vw;
+        font-family: 'Arimo', sans-serif;
+    }
+    .profile{
+        width: 19vw;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+
+    .usuarioBarra {
+        display: none;
+    }
+
+
+    .galeriaGrid {
+        width: -webkit-fill-available;
+        grid-row-gap: 10px;
+        width: auto;
+        grid-template-columns: repeat(3, 100px);
+        display: grid;
+        justify-content: space-evenly;
+        background-color: #f4abb1;
+        justify-items: center;
+        padding: 10px;
+        grid-row-gap: 10px
+    }
+
+    .botonUsuario {
+        margin-top: 15px;
+        text-align: center;
+        width: 250px;
+        height: 45px;
+        background-color: #3208223b;
+        border-radius: 10px;
+        font-size: 16px;
+        border: none;
+    }
+    p,h2,h4{
+        text-align: center;
+        font-family: 'Arimo', sans-serif;
+        padding: 5px;
+    }
+
+}
+
+/*------------------------------------------------NAV-------------------------------------------------------*/

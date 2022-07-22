@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 import { Button, Container, Chip } from "react-bootstrap";
 import { Grid, Box } from "react-bootstrap";
 import { useNavigate } from "react-router";

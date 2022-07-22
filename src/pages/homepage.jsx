@@ -1,6 +1,6 @@
 import Nav from "../components/Nav";
-import Catalog from "../components/catalog";
 import HeroImg from "../components/heroimage";
+import Main from "./catalogmain";
 import Detalle from './detalle';
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home-pg">
       <Nav/>
       <HeroImg/>
-      <Catalog/>
+      <Main/>
       <Detalle/>
     </div>
   );

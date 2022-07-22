@@ -1,6 +1,7 @@
 import React from "react";
-import "./style/heroimage.css";
-import logo from './assets/heroimage.png';
+import "../App.css";
+import { Button } from "react-bootstrap";
+import logo from "./assets/heroimage.png";
 
 export default function HeroImg() {
   return (
@@ -15,16 +16,20 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
       <link href="./heroimage.css" rel="stylesheet" type="text/css" />
       <div className="hero-image" src={logo} style={{ height: "50%" }}>
         <div className="hero-text">
-          <h1 className="title" style={{ fontStyle: "Georgia", color: "#fff", fontSize: 50 }}>
+          <h1
+            className="title"
+            style={{ fontStyle: "Georgia", color: "#fff", fontSize: 50 }}
+          >
             Stay Forever
           </h1>
           <p>Trabajamos para tu tranquilidad y nos centramos en tus deseos</p>
-          <a href="#pisos">
-            <a href="./Catalog" className="immuebles" role="button">
-              Ver Inmuebles
-            </a>
-            <br></br>
+
+          <a href="/cataloglist"><Button variant="outline-dark"  >
+            {" "}
+            Ver Inmuebles{" "}
+          </Button>
           </a>
+          <br></br>
         </div>
         <div id="popup1" className="overlay">
           <div className="popup">

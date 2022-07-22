@@ -1,21 +1,24 @@
 import React from "react";
-import "./style/catalog.css";
-import piso1 from "./assets/piso1.jpg";
-import piso2 from "./assets/piso2.jpg";
-import piso3 from "./assets/piso3.jpg";
-import piso4 from "./assets/piso4.jpg";
-import piso5 from "./assets/piso5.jpg";
-import piso6 from "./assets/piso6.jpg";
-import piso7 from './assets/piso7.jpg';
-import piso8 from './assets/piso8.jpg';
-import piso9 from './assets/piso9.jpg';
+import "../App.css";
+import detalle from './detalle';
+import perfil from "../components/assets/perfil.png";
+import palabra from "../components/assets/palabra.png";
+import piso1 from "../components/assets/piso1.jpg";
+import piso2 from "../components/assets/piso2.jpg";
+import piso3 from "../components/assets/piso3.jpg";
+import piso4 from "../components/assets/piso4.jpg";
+import piso5 from "../components/assets/piso5.jpg";
+import piso6 from "../components/assets/piso6.jpg";
+import piso7 from "../components/assets/piso7.jpg";
+import piso8 from "../components/assets/piso8.jpg";
+import piso9 from "../components/assets/piso9.jpg";
 
 export default function Catalog() {
   return (
     <>
       <div>
         <div className="galeriaGrid">
-          <div className="infoBox">
+          <div className="infoBox" href={detalle}>
             <img className="imgSize" src={piso1} alt="piso" />
             <h2>172.000$</h2>
             <h4>Pisos con terraza, los más buscados</h4>

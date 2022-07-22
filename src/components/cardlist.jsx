@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./card";
+import data from '../../public/pisos.json';
 
 function CardList({ response }) {
   let data = [];
@@ -9,7 +10,7 @@ function CardList({ response }) {
   return (
     <div className="results">
       {data.map((data) => (
-        <Card key={data.id} experiencia={data} />
+        <Card key={data.id} pisos={data} />
       ))}
     </div>
   );

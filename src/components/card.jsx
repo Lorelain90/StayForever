@@ -1,5 +1,3 @@
-
-
 import { Grid,Chip, Box,Button, Container } from "react-bootstrap";
 
 export default function Card (props) {
