@@ -1,10 +1,10 @@
 # Stay Forever
 
-_Proyecto en que se nos ha encargado crear un marketplace de viviendas de lujo para personas con un poder adquisitivo alto. 
+Proyecto en que se nos ha encargado crear un marketplace de viviendas de lujo para personas con un poder adquisitivo alto. 
 
 El objetivo del proyecto es conectar a los vendedores de estos inmuebles anunciados en nuestra página web con el cliente final, que encuentra en nuestro marketplace buscando una vivienda para adquirir y en la que vivir para siempre.
 
-Posteriormente cuando encuentra su 'perfect match' tiene todos los datos para para ponerse en contacto con el vendedor y así poder ampliar la información dada en el anuncio._
+Posteriormente cuando encuentra su 'perfect match' tiene todos los datos para para ponerse en contacto con el vendedor y así poder ampliar la información dada en el anuncio.
 
 ## Comenzando 🚀
 
